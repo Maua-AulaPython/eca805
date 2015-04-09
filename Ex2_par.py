@@ -11,3 +11,6 @@ print("Teste do numero par:\n")
 x=int(input("Digite o valor do numero: "))
 par(x)
 input()
+
+# Nota: 1.0
+# Comentario: input() final desnecessario
