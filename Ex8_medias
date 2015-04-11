@@ -1,0 +1,24 @@
+#Ex8_medias
+
+notas=[]
+x=0
+m=0
+print("Calculo de medias")
+while x>=0:
+    while True:
+        try:
+            x=float(input("Digite a nota: "))
+            if x>=0:
+                notas.append(x)
+            break
+        except:
+            print("Nao eh um numero valido")
+if len(notas)>0:
+    for i in range(len(notas)):
+        m=m+notas[i]
+        print("Nota [",i+1,"]: ",notas[i])
+    m=m/len(notas)
+    print("A media eh igual a",m)
+    print("A maior nota eh",max(notas))
+else:
+    print("Nao eh possivel calcular a media")
