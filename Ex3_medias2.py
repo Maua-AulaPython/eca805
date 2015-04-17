@@ -13,3 +13,6 @@ if i>0:
     media=soma/i
     print("A media eh igual a",media)
 input()
+
+# Nota: 1.0
+# Comentario: *

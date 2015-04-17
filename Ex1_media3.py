@@ -12,3 +12,7 @@ c=int(input("Digite o valor de c: "))
 m=media(a,b,c)
 print("O valor da media eh:",m)
 input()
+
+# Nota: 0.9
+# Comentario: Bom uso de funcao, boas informacoes ao usuario. input() final
+# desnecessario
