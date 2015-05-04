@@ -12,7 +12,10 @@ def ex1():
     d=math.sqrt((x[1]-x[0])**2+(y[1]-y[0])**2)
     print("A distância é de",d)
     input("\nDigite qualquer tecla para continuar: ")
-    
+
+# Nota: 1.0
+# Ok!
+
 def ex2():
     x=[]
     y=[]
@@ -31,7 +34,10 @@ def ex2():
                 d=aux
     print("A maior distancia é de",d)
     input("\nDigite qualquer tecla para continuar: ")
-    
+
+# Nota: 1.0
+# Ok!
+
 def ex3():
     x=[]
     y=[]
@@ -46,7 +52,10 @@ def ex3():
     ang=math.degrees(ang)
     print("O valor em coordenadas polares é: Dist=",d,", Ângulo=",ang,"º")
     input("\nDigite qualquer tecla para continuar: ")
-    
+
+# Nota: 1.0
+# Ok!
+
 def ex4():
     d=[]
     area=0
@@ -61,7 +70,10 @@ def ex4():
     else:
         print("Não é possível formar um triângulo retângulo com os valores de: Cateto 1(",d[0],"), Cateto 2(",d[1],") e hipotenusa(",d[2],")")
         input("\nDigite qualquer tecla para continuar: ")
-        
+
+# Nota: 1.0
+# Ok!
+
 def ex5():
     p=[]
     lat=0
@@ -85,6 +97,9 @@ def ex5():
     print("A longitude é de",long,"º")
     print("A altitude é de",h*1000,"m")
     input("\nDigite qualquer tecla para continuar: ")
+
+# Nota: 1.0
+# Muito bom!
 
 o=-1
 while o!=0:
