@@ -22,3 +22,7 @@ if len(notas)>0:
     print("A maior nota eh",max(notas))
 else:
     print("Nao eh possivel calcular a media")
+
+
+#Nota: 1.0
+#Comentario: **
